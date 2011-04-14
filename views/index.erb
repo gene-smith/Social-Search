@@ -1,0 +1,31 @@
+<div id="flash">
+  <%= @flash %>
+</div>
+
+<div id="form-contain">
+	<div id="form">
+		
+	<h1 class="h1"></h1>
+
+	<form id="socialsearchform" class="form" action="/search/" method="GET" name="socialsearchform" target="newwin">
+		<input type="submit" value="" class="button"/>
+		<input name="search" type="text" class="input" onfocus="this.value=''; this.onfocus=null;" value="Enter Keyword"/>
+		<br />
+		<select name="type" class="select">
+		<option value="SELECT" selected="selected">Select Network</option>
+		<option value="bebo">Bebo</option>
+		<option value="cafemom">CafeMom</option>
+		<option value="facebook">Facebook</option>
+		<option value="flickr">Flickr</option>
+		<option value="linkedin">LinkedIn</option>
+		<option value="myspace">MySpace</option>
+		<option value="twitter">Twitter</option>
+		<option value="youtube">YouTube</option>
+		</select>
+
+		<br/>
+	</form>
+		
+	</div>
+</div>
+
